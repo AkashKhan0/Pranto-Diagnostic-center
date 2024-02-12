@@ -1,0 +1,106 @@
+@media only screen and (max-width: 1150px) {
+  .emlNmb {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .btmNav2 {
+    display: none;
+  }
+  .burger {
+    display: block;
+  }
+}
+@media only screen and (max-width: 836px) {
+  .hide-in-res,
+  .emlNmb > span {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1201px) {
+  .orginalFooter {
+    flex-wrap: wrap;
+  }
+  .test {
+    min-width: 250px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .copyright-res {
+    flex-direction: column;
+  }
+  .ambulanceImg {
+    flex-wrap: wrap;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .nexus-poriciti-res {
+    flex-direction: column;
+  }
+  .imgPart > img {
+    width: 100%;
+    height: auto;
+    object-fit: fill;
+  }
+}
+@media only screen and (max-width: 1176px) {
+  .doctorBox,
+  .imageGalleryBox,
+  .imgGlr {
+    width: 31%;
+    min-width: 300px;
+  }
+  .ambulanceImg > img {
+    width: 48%;
+  }
+}
+@media only screen and (max-width: 1105px) {
+  .doctorBox,
+  .imageGalleryBox,
+  .imgGlr {
+    width: 48%;
+    min-width: 300px;
+  }
+}
+@media only screen and (max-width: 730px) {
+  .doctorBox,
+  .imageGalleryBox,
+  .imgGlr {
+    width: 100%;
+    min-width: 300px;
+  }
+  .ambulanceImg > img {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 870px) {
+  .imageDct > img {
+    object-fit: contain;
+  }
+  .imageDct,
+  .DctInfo {
+    width: 100%;
+  }
+  .chairman-director-res,
+  .doctorList-res {
+    flex-direction: column;
+  }
+  .dcListP {
+    padding: 0;
+  }
+}
+@media only screen and (max-width: 930px) {
+  .managmentBox {
+    width: 48%;
+  }
+  .cpntactForm {
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 660px) {
+  .managmentBox {
+    width: 100%;
+  }
+  .names {
+    flex-direction: column;
+  }
+}

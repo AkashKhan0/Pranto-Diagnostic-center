@@ -1,0 +1,947 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pranto Diagnostic center</title>
+    <link
+      rel="shortcut icon"
+      href="https://nexushospitalmymensingh.com/public/uploads/logo/1650087105.png"
+      type="image/x-icon"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+
+    <!-- slider theme css file  -->
+    <link rel="stylesheet" href="./themes/js-image-slider.css" />
+    <!-- slider theme css file  -->
+    <!-- slider theme js file  -->
+    <script src="./themes/js-image-slider.js"></script>
+    <!-- slider theme js file  -->
+
+    <!-- bootstrap css js link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <!-- bootstrap css js link  -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+  </head>
+  <body onload="populateSlider()">
+    <!-- ===================== **************************** ===================== -->
+
+    <!-- ===================== top nav section start ===================== -->
+    <!-- ===================== top nav section start ===================== -->
+    <!-- ===================== top nav section start ===================== -->
+    <div class="w flex-aj bgbl1">
+      <div class="wc flex justify-btn">
+        <div class="emlNmb f3 flex-aling">
+          <a
+            href="mailto:nexushospitals@gmail.com"
+            class="flex-aling gap-5 display1"
+          >
+            <iconify-icon icon="ooui:message"> </iconify-icon>
+            nexushospitals@gmail.com
+          </a>
+          <span> | </span>
+          <a
+            href="tel:01796-586561 , 01796-586562 , 01708-884888 , 01322-859970"
+            class="flex-aling gap-5 display1 hide-in-res"
+          >
+            <iconify-icon icon="ic:baseline-call"> </iconify-icon>
+            01796-586561 , 01796-586562 , 01708-884888 , 01322-859970
+          </a>
+        </div>
+        <div class="sclIcn flex-aling f1 justify-end">
+          <a href="#" class="flex-aling gap-5 display1">
+            <iconify-icon icon="mingcute:youtube-fill"> </iconify-icon>
+          </a>
+          <span> | </span>
+          <a href="#" class="flex-aling gap-5 display1">
+            <iconify-icon icon="ant-design:facebook-filled"> </iconify-icon>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- ===================== top nav section end ===================== -->
+    <!-- ===================== top nav section end ===================== -->
+    <!-- ===================== top nav section end ===================== -->
+
+    <!-- ===================== **************************** ===================== -->
+
+    <!-- ===================== bottom blue nav section start ===================== -->
+    <!-- ===================== bottom blue nav section start ===================== -->
+    <!-- ===================== bottom blue nav section start ===================== -->
+    <div class="w flex-aj bgw" id="stickyNav">
+      <div class="wc flex-aling justify-btn btmNav gap-20">
+        <div class="f1 btmNav1">
+          <img
+            src="https://nexushospitalmymensingh.com/public/uploads/logo/1650087036.png"
+            alt="logo image"
+          />
+        </div>
+        <div class="f4 btmNav2 flex-aling justify-end gap-20">
+          <span><a href="#">HOME</a></span>
+          <span id="abt"
+            ><a href="#">ABOUT US</a>
+            <div class="subMenu">
+              <span>
+                <iconify-icon
+                  icon="ri:arrow-right-double-line"
+                  class="display2"
+                >
+                </iconify-icon>
+                <a href="aboutus.html"> ABOUT HOSPITAL</a>
+              </span>
+            </div>
+          </span>
+          <span><a href="top_managment.html">TOP MANAGEMENT</a></span>
+          <span id="abt"
+            ><a href="#">DEPARTMENT</a>
+
+            <div class="subMenu">
+              <span>
+                <iconify-icon
+                  icon="ri:arrow-right-double-line"
+                  class="display2"
+                >
+                </iconify-icon>
+                <a href="cathlab.html"> CATH LAB</a>
+              </span>
+              <span>
+                <iconify-icon
+                  icon="ri:arrow-right-double-line"
+                  class="display2"
+                >
+                </iconify-icon>
+                <a href="Pharmacy.html"> PHARMACY</a>
+              </span>
+
+              <span>
+                <iconify-icon
+                  icon="ri:arrow-right-double-line"
+                  class="display2"
+                >
+                </iconify-icon>
+                <a href="outdoor.html"> OUTDOOR</a>
+              </span>
+              <span>
+                <iconify-icon
+                  icon="ri:arrow-right-double-line"
+                  class="display2"
+                >
+                </iconify-icon>
+                <a href="allkindof.html"> ALL KINDS OF OT</a>
+              </span>
+              <span>
+                <iconify-icon
+                  icon="ri:arrow-right-double-line"
+                  class="display2"
+                >
+                </iconify-icon>
+                <a href="nicu.html"> NICU</a>
+              </span>
+              <span>
+                <iconify-icon
+                  icon="ri:arrow-right-double-line"
+                  class="display2"
+                >
+                </iconify-icon>
+                <a href="Kidney.html"> KIDNEY DIALYSIS</a>
+              </span>
+              <span>
+                <iconify-icon
+                  icon="ri:arrow-right-double-line"
+                  class="display2"
+                >
+                </iconify-icon>
+                <a href="ccuicu.html"> CCU & ICU</a>
+              </span>
+              <span>
+                <iconify-icon
+                  icon="ri:arrow-right-double-line"
+                  class="display2"
+                >
+                </iconify-icon>
+                <a href="ambulance.html"> AMBULANCE</a>
+              </span>
+            </div>
+          </span>
+          <span><a href="Doctors.html">DOCTORS</a></span>
+          <span><a href="services.html">SERVICES</a></span>
+          <span id="abt"
+            ><a href="#">MEDIA</a>
+            <div class="subMenu">
+              <span>
+                <iconify-icon
+                  icon="ri:arrow-right-double-line"
+                  class="display2"
+                >
+                </iconify-icon>
+                <a href="imageGallery.html"> IMAGE GALLERY</a>
+              </span>
+              <span>
+                <iconify-icon
+                  icon="ri:arrow-right-double-line"
+                  class="display2"
+                >
+                </iconify-icon>
+                <a href="videoGallery.html"> VIDEO GALLERY</a>
+              </span>
+            </div>
+          </span>
+          <span><a href="contact.html">CONTACT US</a></span>
+          <a href="appoinment.html" class="navButton">APPOINTMENT</a>
+        </div>
+        <div class="burger">
+          <iconify-icon icon="iconamoon:menu-burger-horizontal-bold">
+          </iconify-icon>
+        </div>
+      </div>
+    </div>
+    <!-- ===================== bottom blue nav section end ===================== -->
+    <!-- ===================== bottom blue nav section end ===================== -->
+    <!-- ===================== bottom blue nav section end ===================== -->
+
+    <!-- ===================== **************************** ===================== -->
+
+    <!-- ===================== hero section start ===================== -->
+    <!-- ===================== hero section start ===================== -->
+
+    <div class="w">
+      <div class="slider">
+        <div id="sliderFrame"></div>
+        <div class="overSlider w flex-aj">
+          <div class="wc ovrsliderInfo">
+            <h2>
+              Better Doctors , Medicine & Ambulance. We are always with you
+            </h2>
+            <h5>
+              Best Service, Lowest Cost, First attempt at international
+              standards
+            </h5>
+            <span>
+              <a href="#">Doctors</a>
+              <span>|</span>
+              <a href="#">Medicine</a>
+              <span>|</span>
+              <a href="#">Ambulance</a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===================== hero section end ===================== -->
+    <!-- ===================== hero section end ===================== -->
+
+    <!-- ===================== others section start ===================== -->
+    <!-- ===================== others section start ===================== -->
+
+    <div class="w flex-aj">
+      <div class="wc others flex-aling">
+        <div class="items w flex-aj">
+          <div class="cardd flex-ajc abtUuus">
+            <iconify-icon
+              icon="game-icons:self-love"
+              class="sliderIcon"
+            ></iconify-icon>
+            <h2>About Us</h2>
+          </div>
+
+          <div class="cardd">
+            <iconify-icon
+              icon="icon-park-outline:medicine-chest"
+              class="sliderIcon"
+            ></iconify-icon>
+            <h2>Hospital</h2>
+          </div>
+
+          <div class="cardd">
+            <iconify-icon
+              icon="game-icons:medicine-pills"
+              class="sliderIcon"
+            ></iconify-icon>
+            <h2>Medicine</h2>
+          </div>
+
+          <div class="cardd">
+            <iconify-icon
+              icon="healthicons:doctor-male"
+              class="sliderIcon"
+            ></iconify-icon>
+            <h2>Doctors</h2>
+          </div>
+
+          <div class="cardd">
+            <iconify-icon
+              icon="mdi:ambulance"
+              class="sliderIcon"
+            ></iconify-icon>
+            <h2>Ambulance</h2>
+          </div>
+          <div class="cardd flex-ajc">
+            <iconify-icon
+              icon="game-icons:self-love"
+              class="sliderIcon"
+            ></iconify-icon>
+            <h2>About Us</h2>
+          </div>
+
+          <div class="cardd">
+            <iconify-icon
+              icon="icon-park-outline:medicine-chest"
+              class="sliderIcon"
+            ></iconify-icon>
+            <h2>Hospital</h2>
+          </div>
+
+          <div class="cardd">
+            <iconify-icon
+              icon="game-icons:medicine-pills"
+              class="sliderIcon"
+            ></iconify-icon>
+            <h2>Medicine</h2>
+          </div>
+
+          <div class="cardd">
+            <iconify-icon
+              icon="healthicons:doctor-male"
+              class="sliderIcon"
+            ></iconify-icon>
+            <h2>Doctors</h2>
+          </div>
+
+          <div class="cardd">
+            <iconify-icon
+              icon="mdi:ambulance"
+              class="sliderIcon"
+            ></iconify-icon>
+            <h2>Ambulance</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===================== others section end ===================== -->
+    <!-- ===================== others section end ===================== -->
+    <!-- ===================== **************************** ===================== -->
+
+    <!-- ===================== others section start ===================== -->
+    <!-- ===================== others section start ===================== -->
+    <div class="w flex-aj">
+      <div class="wc flex gap-20 py-50 nexus-poriciti-res">
+        <div class="f1 imgPart">
+          <img
+            src="https://nexushospitalmymensingh.com/public/frontend/images/department/01.jpg"
+            alt=""
+          />
+        </div>
+        <div class="f2 dcInformation">
+          <h3>নেক্সাস হসপিটালের পরিচিতি</h3>
+          <p>
+            বৃহত্তর ময়মনসিংহে বেসরকারী উদ্যোগে হৃদরোগসহ অন্যান্য রোগের
+            চিকিৎসায় আন্তর্জাতিক মানের প্রথম প্রয়াস হল নেক্সাস হসপিটালস ।
+            “সর্বোত্তম সেবা সর্বনিম্ন খরচ” এই শ্লোগান নিয়ে ১০০% দালালমুক্ত,
+            ১০০% কমিশনমুক্ত, রোগীর সেবা বান্ধব নেক্সাস প্রতিষ্ঠা করাই হল আমাদের
+            ব্রত। সেবার নৈতিক নীতিমালা অক্ষুন্ন রেখে নেক্সাস ধীরে ধীরে এগিয়ে
+            চলছে।
+          </p>
+          <a href="#">Learn more →</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- chairman speach -->
+    <div class="w flex-ajc gap-30 py-50">
+      <div class="wc flex gap-30 chairman-director-res">
+        <div class="f1 imageDct">
+          <img
+            src="https://nexushospitalmymensingh.com/public/uploads/team/16907783956393.jpg"
+            alt=""
+          />
+          <h5>Hazi Md. Atiar Rahman</h5>
+          <p>Chairman</p>
+        </div>
+        <div class="f3 DctInfo">
+          <h4>Chairman Speech</h4>
+          <article>
+            <p><strong>আসসালামু আলাইকুম।&nbsp;</strong></p>
+
+            <p>
+              <strong
+                >বৃহত্তর ময়মনসিংহে সেবার মৌলিক নীতি সংরক্ষণ করে আন্তজার্তিক
+                মানের সেবা প্রদান করার মহতী উদ্দেশ্য নিয়েই নেক্সাস কার্ডিয়াক
+                হসপিটাল এন্ড রিসার্চ লিমিটেডের গােড়াপত্তন।</strong
+              >
+            </p>
+
+            <p>
+              <strong
+                >আলহামদুলিল্লাহ, প্রতিষ্ঠানটি এই ভাবধারা অক্ষুন্ন রেখেই এগিয়ে
+                চলছে। সব ডাইরেক্টরবৃন্দ ও সকল শেয়ার হােল্ডারবৃন্দ হলেন
+                নেক্সাসের প্রাণ। সবার ঐকান্তিক আগ্রহ, চেষ্টা, সহাযােগীতা একীভূত
+                হলে ইনশাআল্লাহ অচিরেই নেক্সাস তার অভিষ্ঠ লক্ষ্যে পৌঁছতে
+                পারবে।</strong
+              >
+            </p>
+            <p><strong>সবার শুভ কামনায়।</strong></p>
+          </article>
+          <a href="#"
+            ><iconify-icon icon="ic:baseline-add"></iconify-icon> Read More</a
+          >
+        </div>
+      </div>
+
+      <!-- maneging director speach -->
+      <div class="wc flex gap-30 chairman-director-res">
+        <div class="f3 DctInfo">
+          <h4>Managing Director Speech</h4>
+          <article>
+            <p>
+              বাস্তবিক সেবার ব্রত নিয়েই নেক্সাস কার্ডিয়াক হসপিটাল এন্ড রিসার্চ
+              লিঃ এর গোড়াপত্তন। আসলে, চিকিৎসার ক্ষেএে বাস্তবিক সেবার উপাদান
+              অনেক।আর এই উপাদানগুলোর প্রতিষ্ঠা ও বাস্তবায়ন অনেক বড় এক চ্যালেঞ্জ।
+              আপনাদের জ্ঞাতার্থে ও অনুধাবন করার স্বার্থে কিছু উপাদান উল্লেখ করা
+              যেতে পারে।যেমন-
+            </p>
+
+            <ul>
+              <li>হাসপাতালটি উন্নত ও পরিষ্কার পরিচ্ছন্ন পরিবেশসম্পন্ন হওয়া।</li>
+              <li>হাসপাতালটি দালালমুক্ত হওয়া।</li>
+              <li>হাসপাতালটি কমিশনমুক্ত হওয়া।</li>
+              <li>
+                হাসপাতালটিতে গরীব ও অসহায়দের জন্যও চিকিৎসার সু-ব্যবস্থা থাকা।
+              </li>
+              <li>
+                হাসপাতালটির মেডিকেল যন্ত্রপাতি ও অন্যান্য ব্যবহারিক যন্ত্রপাতি
+                মানসম্পন্ন হওয়া।
+              </li>
+              <li>
+                হাসপাতালের কর্মকর্তা, কর্মচারী, স্টাফ সবার ব্যবহার অতিথি
+                সেবাপরায়ণ হওয়া।
+              </li>
+              <li>হাসপাতালে রোগীর চিকিৎসা খরচ যৌক্তিক ও সমীচীন হওয়া।</li>
+              <li>
+                নারী জাতি সম্মানের, তাদের মনোভাব ও সম্মানের প্রতি যথাযথ লক্ষ্য
+                রাখার ব্যবস্থা করা।
+              </li>
+            </ul>
+          </article>
+          <a href="#"
+            ><iconify-icon icon="ic:baseline-add"></iconify-icon> Read More</a
+          >
+        </div>
+        <div class="f1 imageDct">
+          <img
+            src="https://nexushospitalmymensingh.com/public/uploads/team/17040053727010.JPG"
+            alt=""
+          />
+          <h5>Capt. Mohammad Shafique Salahuddin</h5>
+          <p>Managing Director</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- doctors list  -->
+    <div class="w flex-ajc gap-30 py-50 sectionDoctorList">
+      <div class="wc flex gap-50 doctorList-res">
+        <div class="doctorList">
+          <h2>Doctors List <span></span></h2>
+          <a href="#">All Doctors</a>
+        </div>
+        <p class="dcListP">
+          Hospital doctors diagnose and treat medical conditions, disorders, and
+          diseases through the application of specialist medical skills and
+          knowledge. Hospital doctors can work in a number of specialties, from
+          emergency medicine to surgery. Hospital doctors treat those who have
+          been admitted or referred to hospital.
+        </p>
+      </div>
+      <div class="dcListSlider wc">
+        <div class="sliderArrow flex-aling justify-end">
+          <div class="owl-nav">
+            <button type="button" role="presentation" class="owl-prev">
+              <span aria-label="Previous" href="#carouselExampleIndicators"
+                >‹</span
+              ></button
+            ><button type="button" role="presentation" class="owl-next">
+              <span aria-label="Next" href="#carouselExampleIndicators">›</span>
+            </button>
+          </div>
+        </div>
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="doctorsSlide1 flex gap-20">
+                <div class="doctorBox">
+                  <div class="dcImg_abt flex gap-20">
+                    <img
+                      src="https://nexushospitalmymensingh.com/public/uploads/doctors/17040036014664.jpg"
+                      alt=""
+                    />
+                    <div class="article">
+                      <h5>ডাঃ জহির উদ্দিন মোহাম্মাদ শরীফ</h5>
+                      <small
+                        >মেডিসিন, হৃদরোগ ও বাতজ্বর ও ডায়াবেটিস রোগ
+                        বিশেষজ্ঞ</small
+                      >
+                      <p>রবিবার থেকে বুধবার</p>
+                      <small>Nexus Hospital / 5pm - 10pm</small>
+                    </div>
+                  </div>
+                  <button>For Appointment</button>
+                </div>
+                <div class="doctorBox">
+                  <div class="dcImg_abt flex gap-20">
+                    <img
+                      src="https://nexushospitalmymensingh.com/public/uploads/doctors/17040036014664.jpg"
+                      alt=""
+                    />
+                    <div class="article">
+                      <h5>ডাঃ জহির উদ্দিন মোহাম্মাদ শরীফ</h5>
+                      <small
+                        >মেডিসিন, হৃদরোগ ও বাতজ্বর ও ডায়াবেটিস রোগ
+                        বিশেষজ্ঞ</small
+                      >
+                      <p>রবিবার থেকে বুধবার</p>
+                      <small>Nexus Hospital / 5pm - 10pm</small>
+                    </div>
+                  </div>
+                  <button>For Appointment</button>
+                </div>
+                <div class="doctorBox">
+                  <div class="dcImg_abt flex gap-20">
+                    <img
+                      src="https://nexushospitalmymensingh.com/public/uploads/doctors/17040036014664.jpg"
+                      alt=""
+                    />
+                    <div class="article">
+                      <h5>ডাঃ জহির উদ্দিন মোহাম্মাদ শরীফ</h5>
+                      <small
+                        >মেডিসিন, হৃদরোগ ও বাতজ্বর ও ডায়াবেটিস রোগ
+                        বিশেষজ্ঞ</small
+                      >
+                      <p>রবিবার থেকে বুধবার</p>
+                      <small>Nexus Hospital / 5pm - 10pm</small>
+                    </div>
+                  </div>
+                  <button>For Appointment</button>
+                </div>
+                <div class="doctorBox">
+                  <div class="dcImg_abt flex gap-20">
+                    <img
+                      src="https://nexushospitalmymensingh.com/public/uploads/doctors/17040036014664.jpg"
+                      alt=""
+                    />
+                    <div class="article">
+                      <h5>ডাঃ জহির উদ্দিন মোহাম্মাদ শরীফ</h5>
+                      <small
+                        >মেডিসিন, হৃদরোগ ও বাতজ্বর ও ডায়াবেটিস রোগ
+                        বিশেষজ্ঞ</small
+                      >
+                      <p>রবিবার থেকে বুধবার</p>
+                      <small>Nexus Hospital / 5pm - 10pm</small>
+                    </div>
+                  </div>
+                  <button>For Appointment</button>
+                </div>
+                <div class="doctorBox">
+                  <div class="dcImg_abt flex gap-20">
+                    <img
+                      src="https://nexushospitalmymensingh.com/public/uploads/doctors/17040036014664.jpg"
+                      alt=""
+                    />
+                    <div class="article">
+                      <h5>ডাঃ জহির উদ্দিন মোহাম্মাদ শরীফ</h5>
+                      <small
+                        >মেডিসিন, হৃদরোগ ও বাতজ্বর ও ডায়াবেটিস রোগ
+                        বিশেষজ্ঞ</small
+                      >
+                      <p>রবিবার থেকে বুধবার</p>
+                      <small>Nexus Hospital / 5pm - 10pm</small>
+                    </div>
+                  </div>
+                  <button>For Appointment</button>
+                </div>
+                <div class="doctorBox">
+                  <div class="dcImg_abt flex gap-20">
+                    <img
+                      src="https://nexushospitalmymensingh.com/public/uploads/doctors/17040036014664.jpg"
+                      alt=""
+                    />
+                    <div class="article">
+                      <h5>ডাঃ জহির উদ্দিন মোহাম্মাদ শরীফ</h5>
+                      <small
+                        >মেডিসিন, হৃদরোগ ও বাতজ্বর ও ডায়াবেটিস রোগ
+                        বিশেষজ্ঞ</small
+                      >
+                      <p>রবিবার থেকে বুধবার</p>
+                      <small>Nexus Hospital / 5pm - 10pm</small>
+                    </div>
+                  </div>
+                  <button>For Appointment</button>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="doctorsSlide1 flex gap-20">
+                <div class="doctorBox">
+                  <div class="dcImg_abt flex gap-20">
+                    <img
+                      src="https://nexushospitalmymensingh.com/public/uploads/doctors/17040036014664.jpg"
+                      alt=""
+                    />
+                    <div class="article">
+                      <h5>ডাঃ জহির উদ্দিন মোহাম্মাদ শরীফ</h5>
+                      <small
+                        >মেডিসিন, হৃদরোগ ও বাতজ্বর ও ডায়াবেটিস রোগ
+                        বিশেষজ্ঞ</small
+                      >
+                      <p>রবিবার থেকে বুধবার</p>
+                      <small>Nexus Hospital / 5pm - 10pm</small>
+                    </div>
+                  </div>
+                  <button>For Appointment</button>
+                </div>
+                <div class="doctorBox">
+                  <div class="dcImg_abt flex gap-20">
+                    <img
+                      src="https://nexushospitalmymensingh.com/public/uploads/doctors/17040036014664.jpg"
+                      alt=""
+                    />
+                    <div class="article">
+                      <h5>ডাঃ জহির উদ্দিন মোহাম্মাদ শরীফ</h5>
+                      <small
+                        >মেডিসিন, হৃদরোগ ও বাতজ্বর ও ডায়াবেটিস রোগ
+                        বিশেষজ্ঞ</small
+                      >
+                      <p>রবিবার থেকে বুধবার</p>
+                      <small>Nexus Hospital / 5pm - 10pm</small>
+                    </div>
+                  </div>
+                  <button>For Appointment</button>
+                </div>
+                <div class="doctorBox">
+                  <div class="dcImg_abt flex gap-20">
+                    <img
+                      src="https://nexushospitalmymensingh.com/public/uploads/doctors/17040036014664.jpg"
+                      alt=""
+                    />
+                    <div class="article">
+                      <h5>ডাঃ জহির উদ্দিন মোহাম্মাদ শরীফ</h5>
+                      <small
+                        >মেডিসিন, হৃদরোগ ও বাতজ্বর ও ডায়াবেটিস রোগ
+                        বিশেষজ্ঞ</small
+                      >
+                      <p>রবিবার থেকে বুধবার</p>
+                      <small>Nexus Hospital / 5pm - 10pm</small>
+                    </div>
+                  </div>
+                  <button>For Appointment</button>
+                </div>
+                <div class="doctorBox">
+                  <div class="dcImg_abt flex gap-20">
+                    <img
+                      src="https://nexushospitalmymensingh.com/public/uploads/doctors/17040036014664.jpg"
+                      alt=""
+                    />
+                    <div class="article">
+                      <h5>ডাঃ জহির উদ্দিন মোহাম্মাদ শরীফ</h5>
+                      <small
+                        >মেডিসিন, হৃদরোগ ও বাতজ্বর ও ডায়াবেটিস রোগ
+                        বিশেষজ্ঞ</small
+                      >
+                      <p>রবিবার থেকে বুধবার</p>
+                      <small>Nexus Hospital / 5pm - 10pm</small>
+                    </div>
+                  </div>
+                  <button>For Appointment</button>
+                </div>
+                <div class="doctorBox">
+                  <div class="dcImg_abt flex gap-20">
+                    <img
+                      src="https://nexushospitalmymensingh.com/public/uploads/doctors/17040036014664.jpg"
+                      alt=""
+                    />
+                    <div class="article">
+                      <h5>ডাঃ জহির উদ্দিন মোহাম্মাদ শরীফ</h5>
+                      <small
+                        >মেডিসিন, হৃদরোগ ও বাতজ্বর ও ডায়াবেটিস রোগ
+                        বিশেষজ্ঞ</small
+                      >
+                      <p>রবিবার থেকে বুধবার</p>
+                      <small>Nexus Hospital / 5pm - 10pm</small>
+                    </div>
+                  </div>
+                  <button>For Appointment</button>
+                </div>
+                <div class="doctorBox">
+                  <div class="dcImg_abt flex gap-20">
+                    <img
+                      src="https://nexushospitalmymensingh.com/public/uploads/doctors/17040036014664.jpg"
+                      alt=""
+                    />
+                    <div class="article">
+                      <h5>ডাঃ জহির উদ্দিন মোহাম্মাদ শরীফ</h5>
+                      <small
+                        >মেডিসিন, হৃদরোগ ও বাতজ্বর ও ডায়াবেটিস রোগ
+                        বিশেষজ্ঞ</small
+                      >
+                      <p>রবিবার থেকে বুধবার</p>
+                      <small>Nexus Hospital / 5pm - 10pm</small>
+                    </div>
+                  </div>
+                  <button>For Appointment</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ===================== others section end ===================== -->
+    <!-- ===================== others section end ===================== -->
+
+    <!-- ===================== **************************** ===================== -->
+
+    <!-- ===================== our services section start ===================== -->
+    <!-- ===================== our services section start ===================== -->
+    <div class="w flex-ajc services">
+      <div class="wc flex gap-50 py-50 doctorList-res">
+        <div class="doctorList c">
+          <h2 style="color: white">
+            Our Services <span style="background-color: white"></span>
+          </h2>
+          <a href="#" style="color: #2a93c9; background-color: white"
+            >All Services</a
+          >
+        </div>
+        <p class="dcListP" style="color: white">
+          Hospital Services means those Medically Necessary services for
+          inpatients and outpatients which are generally and customarily
+          provided by acute care general Hospitals, and which are prescribed,
+          directed, or authorized by a Physician in accordance with this
+          Agreement.
+        </p>
+      </div>
+      <div
+        class="wc doctorsGallery flex gap-20"
+        style="background-color: transparent; margin-bottom: 50px"
+      >
+        <div class="imgGlr">
+          <img src="./images/sl4.jpg" alt="" />
+          <span>CATHLAB</span>
+        </div>
+        <div class="imgGlr">
+          <img src="./images/sl4.jpg" alt="" />
+          <span>CATHLAB</span>
+        </div>
+        <div class="imgGlr">
+          <img src="./images/sl4.jpg" alt="" />
+          <span>CATHLAB</span>
+        </div>
+        <div class="imgGlr">
+          <img src="./images/sl4.jpg" alt="" />
+          <span>CATHLAB</span>
+        </div>
+        <div class="imgGlr">
+          <img src="./images/sl4.jpg" alt="" />
+          <span>CATHLAB</span>
+        </div>
+        <div class="imgGlr">
+          <img src="./images/sl4.jpg" alt="" />
+          <span>CATHLAB</span>
+        </div>
+        <div class="imgGlr">
+          <img src="./images/sl4.jpg" alt="" />
+          <span>CATHLAB</span>
+        </div>
+        <div class="imgGlr">
+          <img src="./images/sl4.jpg" alt="" />
+          <span>CATHLAB</span>
+        </div>
+        <div class="imgGlr">
+          <img src="./images/sl4.jpg" alt="" />
+          <span>CATHLAB</span>
+        </div>
+        <div class="imgGlr">
+          <img src="./images/sl4.jpg" alt="" />
+          <span>CATHLAB</span>
+        </div>
+        <div class="imgGlr">
+          <img src="./images/sl4.jpg" alt="" />
+          <span>CATHLAB</span>
+        </div>
+        <div class="imgGlr">
+          <img src="./images/sl4.jpg" alt="" />
+          <span>CATHLAB</span>
+        </div>
+        <div class="imgGlr">
+          <img src="./images/sl4.jpg" alt="" />
+          <span>CATHLAB</span>
+        </div>
+      </div>
+    </div>
+    <!-- ===================== our services section end ===================== -->
+    <!-- ===================== our services section end ===================== -->
+
+    <!-- ===================== **************************** ===================== -->
+
+    <!-- ===================== footer section start ===================== -->
+    <!-- ===================== footer section start ===================== -->
+
+    <div class="w orf flex-aj">
+      <div class="wc orginalFooter flex">
+        <div class="f1 test">
+          <img src="./images/logo.png" alt="" />
+          <p class="p">
+            <iconify-icon icon="carbon:location-filled"> </iconify-icon>
+            29 Shehra, Nexus Hospital Building, Dhaka-Mymensingh Rd, Mymensingh
+            2200
+          </p>
+          <p class="p">
+            <strong>Phone</strong> :
+            <a href="tel:"
+              >01796-586561 , 01796-586562 , 01708-884888 , 01322-859970</a
+            >
+          </p>
+          <p class="p mailto">
+            <strong>Email</strong> :
+            <a href="mailto:">nexushospitals@gmail.com</a>
+          </p>
+          <div class="yf flex">
+            <span class="ytb"
+              ><iconify-icon icon="basil:youtube-solid"> </iconify-icon
+            ></span>
+            <span class="fb"
+              ><iconify-icon icon="ant-design:facebook-filled"> </iconify-icon
+            ></span>
+          </div>
+        </div>
+        <div class="f1 test">
+          <h3>Important Links <span></span></h3>
+          <a href="imageGallery.html">Image Gallery</a>
+          <a href="videoGallery.html">Video Gallery</a>
+          <a href="Doctors.html">Doctors List</a>
+          <a href="news-csr.html">News/CSR</a>
+          <a href="contact.html" id="last">Contact Us</a>
+        </div>
+        <div class="f1 test">
+          <h3>Opening Times <span></span></h3>
+          <p>Open Saturday - Friday</p>
+          <span>24 Hrs</span>
+          <p>শনিবার-শুক্রবার খোলা</p>
+          <span>২৪ ঘন্টা</span>
+        </div>
+        <div class="f1 test">
+          <h3>Instant Contact <span></span></h3>
+
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Full Name"
+            required=""
+          /><input
+            type="text"
+            class="form-control"
+            placeholder="Mobile"
+            pattern="[0-9]{11}"
+            required=""
+          />
+          <textarea
+            class="form-control"
+            rows="4"
+            placeholder="Your message"
+            required=""
+          ></textarea>
+          <button type="submit" class="btn">Submit</button>
+        </div>
+      </div>
+      <div class="copyright flex-aj w">
+        <div class="wc flex-aling justify-btn">
+          <p>&copy; 2012-2022 Nexus Hospital - All Right Reserved.</p>
+          <p>
+            Developed By
+            <a href="#" target="_blank">Rubayet & Akash</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer flex-aling">
+      <div class="notic flex-aling">
+        <p>নোটিশ</p>
+      </div>
+      <div class="notic_move w flex-aling gap-20">
+        <p>
+          <iconify-icon icon="fa-solid:hand-point-right" class="ntcp2">
+          </iconify-icon>
+          বিশ্ব বিখ্যাত ব্র্যান্ড জার্মানির SIEMENS কোম্পানির সর্বাধুনিক
+          প্রযুক্তি সম্পন্ন "ক্যাথল্যাব" মেশিনে নিয়মিত এনজিওগ্রাম, পেসমেকার ও
+          হার্টের রিং স্থাপন করা হচ্ছে নেক্সাস হাসপাতাল ময়মনসিংহে
+          <iconify-icon icon="fa-solid:hand-point-right" class="ntcp2">
+          </iconify-icon>
+          বিশ্ববিখ্যাত জার্মানীর SIEMENS কোম্পানীর সর্বাধুনিক প্রযুক্তির
+          সম্পূর্ণ নতুন CT SCAN মেশিনের সাহায্যে নেক্সাস হাসপাতালে যে কোন CT
+          SCAN এ চলছে ৩০% ছাড় !!!!
+        </p>
+      </div>
+    </div>
+
+    <!-- ===================== footer section end ===================== -->
+    <!-- ===================== footer section end ===================== -->
+    <!-- ===================== footer section end ===================== -->
+
+    <!-- ===================== **************************** ===================== -->
+
+    <!-- iconify icon cdn link  -->
+    <script src="https://code.iconify.design/iconify-icon/1.0.8/iconify-icon.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.8/dist/iconify-icon.min.js"></script>
+    <!-- javascript link  -->
+    <script src="./js/index.js"></script>
+  </body>
+</html>
